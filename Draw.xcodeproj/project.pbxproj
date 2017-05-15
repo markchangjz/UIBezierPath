@@ -15,6 +15,8 @@
 		936D13C01EC992AD00A0B663 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13BF1EC992AD00A0B663 /* MainTableViewController.m */; };
 		936D13C31EC9946500A0B663 /* Draw1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13C21EC9946500A0B663 /* Draw1ViewController.m */; };
 		936D13C61EC995E600A0B663 /* Draw1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13C51EC995E600A0B663 /* Draw1View.m */; };
+		936D13C91EC9A14300A0B663 /* Draw2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13C81EC9A14300A0B663 /* Draw2ViewController.m */; };
+		936D13CC1EC9A33400A0B663 /* Draw3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13CB1EC9A33400A0B663 /* Draw3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		936D13C21EC9946500A0B663 /* Draw1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw1ViewController.m; sourceTree = "<group>"; };
 		936D13C41EC995E600A0B663 /* Draw1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw1View.h; sourceTree = "<group>"; };
 		936D13C51EC995E600A0B663 /* Draw1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw1View.m; sourceTree = "<group>"; };
+		936D13C71EC9A14300A0B663 /* Draw2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw2ViewController.h; sourceTree = "<group>"; };
+		936D13C81EC9A14300A0B663 /* Draw2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw2ViewController.m; sourceTree = "<group>"; };
+		936D13CA1EC9A33400A0B663 /* Draw3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw3ViewController.h; sourceTree = "<group>"; };
+		936D13CB1EC9A33400A0B663 /* Draw3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 				936D13C21EC9946500A0B663 /* Draw1ViewController.m */,
 				936D13C41EC995E600A0B663 /* Draw1View.h */,
 				936D13C51EC995E600A0B663 /* Draw1View.m */,
+				936D13C71EC9A14300A0B663 /* Draw2ViewController.h */,
+				936D13C81EC9A14300A0B663 /* Draw2ViewController.m */,
+				936D13CA1EC9A33400A0B663 /* Draw3ViewController.h */,
+				936D13CB1EC9A33400A0B663 /* Draw3ViewController.m */,
 				936D13B31EC9921000A0B663 /* Assets.xcassets */,
 				936D13B51EC9921000A0B663 /* LaunchScreen.storyboard */,
 				936D13B81EC9921000A0B663 /* Info.plist */,
@@ -163,9 +173,11 @@
 			files = (
 				936D13AC1EC9921000A0B663 /* AppDelegate.m in Sources */,
 				936D13A91EC9921000A0B663 /* main.m in Sources */,
+				936D13CC1EC9A33400A0B663 /* Draw3ViewController.m in Sources */,
 				936D13C31EC9946500A0B663 /* Draw1ViewController.m in Sources */,
 				936D13C01EC992AD00A0B663 /* MainTableViewController.m in Sources */,
 				936D13C61EC995E600A0B663 /* Draw1View.m in Sources */,
+				936D13C91EC9A14300A0B663 /* Draw2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

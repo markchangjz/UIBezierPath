@@ -8,6 +8,8 @@
 
 #import "MainTableViewController.h"
 #import "Draw1ViewController.h"
+#import "Draw2ViewController.h"
+#import "Draw3ViewController.h"
 
 @interface MainTableViewController ()
 
@@ -20,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.viewControllers = @[@"Basic UIBezierPath"];
+    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle"];
 }
 
 #pragma mark - Table view
@@ -46,6 +48,13 @@
     if (indexPath.row == 0) {
         viewController = [[Draw1ViewController alloc] init];
     }
+    else if (indexPath.row == 1) {
+        viewController = [[Draw2ViewController alloc] init];
+    }
+    else if (indexPath.row == 2) {
+        viewController = [[Draw3ViewController alloc] init];
+    }
+
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

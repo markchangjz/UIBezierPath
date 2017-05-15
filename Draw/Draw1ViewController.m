@@ -24,10 +24,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    Draw1View *view = [[Draw1View alloc] init];
-    view.backgroundColor = [UIColor whiteColor];
-    view.frame = self.view.frame;
-    [self.view addSubview:view];
+    Draw1View *drawView = [[Draw1View alloc] init];
+    drawView.backgroundColor = [UIColor whiteColor];
+    drawView.frame = self.view.frame;
+    [self.view addSubview:drawView];
 }
 
 @end
