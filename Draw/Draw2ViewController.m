@@ -1,11 +1,3 @@
-//
-//  Draw2ViewController.m
-//  Draw
-//
-//  Created by esunbank on 2017/5/15.
-//  Copyright © 2017年 Mark. All rights reserved.
-//
-
 // http://stackoverflow.com/questions/7991086/iphone-core-animation-drawing-a-circle
 
 #import "Draw2ViewController.h"

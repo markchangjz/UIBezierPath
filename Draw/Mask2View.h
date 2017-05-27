@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface Mask1View : UIView
+@interface Mask2View : UIView
 
 @end

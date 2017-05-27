@@ -1,16 +1,9 @@
-//
-//  MainTableViewController.m
-//  Draw
-//
-//  Created by esunbank on 2017/5/15.
-//  Copyright © 2017年 Mark. All rights reserved.
-//
-
 #import "MainTableViewController.h"
 #import "Draw1ViewController.h"
 #import "Draw2ViewController.h"
 #import "Draw3ViewController.h"
 #import "Mask1ViewController.h"
+#import "Mask2ViewController.h"
 
 @interface MainTableViewController ()
 
@@ -23,7 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle", @"Mask 1"];
+    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle", @"Mask 1", @"Mask 2"];
 }
 
 #pragma mark - Table view
@@ -57,6 +50,9 @@
     }
     else if (indexPath.row == 3) {
         viewController = [[Mask1ViewController alloc] init];
+    }
+    else if (indexPath.row == 4) {
+        viewController = [[Mask2ViewController alloc] init];
     }
 
     [self.navigationController pushViewController:viewController animated:YES];

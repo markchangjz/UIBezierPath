@@ -1,11 +1,3 @@
-//
-//  Mask1ViewController.m
-//  Draw
-//
-//  Created by MarkChang on 2017/5/27.
-//  Copyright © 2017年 Mark. All rights reserved.
-//
-
 #import "Mask1ViewController.h"
 #import "Draw1View.h"
 #import "Mask1View.h"
