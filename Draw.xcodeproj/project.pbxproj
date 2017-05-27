@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D35B7781ED9BBB60006D250 /* Mask1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35B7771ED9BBB60006D250 /* Mask1ViewController.m */; };
+		0D35B77B1ED9BC670006D250 /* Mask1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35B77A1ED9BC670006D250 /* Mask1View.m */; };
 		936D13A91EC9921000A0B663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13A81EC9921000A0B663 /* main.m */; };
 		936D13AC1EC9921000A0B663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13AB1EC9921000A0B663 /* AppDelegate.m */; };
 		936D13B21EC9921000A0B663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936D13B01EC9921000A0B663 /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D35B7761ED9BBB60006D250 /* Mask1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mask1ViewController.h; sourceTree = "<group>"; };
+		0D35B7771ED9BBB60006D250 /* Mask1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mask1ViewController.m; sourceTree = "<group>"; };
+		0D35B7791ED9BC670006D250 /* Mask1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mask1View.h; sourceTree = "<group>"; };
+		0D35B77A1ED9BC670006D250 /* Mask1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mask1View.m; sourceTree = "<group>"; };
 		936D13A41EC9921000A0B663 /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936D13A81EC9921000A0B663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		936D13AA1EC9921000A0B663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 				936D13C81EC9A14300A0B663 /* Draw2ViewController.m */,
 				936D13CA1EC9A33400A0B663 /* Draw3ViewController.h */,
 				936D13CB1EC9A33400A0B663 /* Draw3ViewController.m */,
+				0D35B7761ED9BBB60006D250 /* Mask1ViewController.h */,
+				0D35B7771ED9BBB60006D250 /* Mask1ViewController.m */,
+				0D35B7791ED9BC670006D250 /* Mask1View.h */,
+				0D35B77A1ED9BC670006D250 /* Mask1View.m */,
 				936D13B31EC9921000A0B663 /* Assets.xcassets */,
 				936D13B51EC9921000A0B663 /* LaunchScreen.storyboard */,
 				936D13B81EC9921000A0B663 /* Info.plist */,
@@ -175,7 +185,9 @@
 				936D13A91EC9921000A0B663 /* main.m in Sources */,
 				936D13CC1EC9A33400A0B663 /* Draw3ViewController.m in Sources */,
 				936D13C31EC9946500A0B663 /* Draw1ViewController.m in Sources */,
+				0D35B7781ED9BBB60006D250 /* Mask1ViewController.m in Sources */,
 				936D13C01EC992AD00A0B663 /* MainTableViewController.m in Sources */,
+				0D35B77B1ED9BC670006D250 /* Mask1View.m in Sources */,
 				936D13C61EC995E600A0B663 /* Draw1View.m in Sources */,
 				936D13C91EC9A14300A0B663 /* Draw2ViewController.m in Sources */,
 			);

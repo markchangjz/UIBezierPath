@@ -10,6 +10,7 @@
 #import "Draw1ViewController.h"
 #import "Draw2ViewController.h"
 #import "Draw3ViewController.h"
+#import "Mask1ViewController.h"
 
 @interface MainTableViewController ()
 
@@ -22,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle"];
+    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle", @"Mask 1"];
 }
 
 #pragma mark - Table view
@@ -53,6 +54,9 @@
     }
     else if (indexPath.row == 2) {
         viewController = [[Draw3ViewController alloc] init];
+    }
+    else if (indexPath.row == 3) {
+        viewController = [[Mask1ViewController alloc] init];
     }
 
     [self.navigationController pushViewController:viewController animated:YES];
