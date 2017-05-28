@@ -4,6 +4,7 @@
 #import "Draw3ViewController.h"
 #import "Mask1ViewController.h"
 #import "Mask2ViewController.h"
+#import "MKRingProgressViewController.h"
 
 @interface MainTableViewController ()
 
@@ -16,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle", @"Mask 1", @"Mask 2"];
+    self.viewControllers = @[@"Basic UIBezierPath", @"Animation", @"Twinkle", @"Mask 1", @"Mask 2", @"Ring Progress View"];
 }
 
 #pragma mark - Table view
@@ -53,6 +54,9 @@
     }
     else if (indexPath.row == 4) {
         viewController = [[Mask2ViewController alloc] init];
+    }
+    else if (indexPath.row == 5) {
+        viewController = [[MKRingProgressViewController alloc] init];
     }
 
     [self.navigationController pushViewController:viewController animated:YES];
