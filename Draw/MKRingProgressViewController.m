@@ -3,6 +3,7 @@
 
 @interface MKRingProgressViewController () {
     MKRingProgressView *ringProgressView;
+    UILabel *progressLabel;
     UIButton *progress50Button, *progress87Button, *progress168Button;
 }
 
@@ -19,12 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    ringProgressView = [[MKRingProgressView alloc] initWithFrame:CGRectMake(30.0, 100.0, 200., 200.0)];
+    ringProgressView = [[MKRingProgressView alloc] initWithFrame:CGRectMake(30.0, 80.0, 250., 250.0)];
     ringProgressView.startColor = [UIColor redColor];
     ringProgressView.endColor = [UIColor magentaColor];
-    ringProgressView.ringWidth = 25.0;
+    ringProgressView.ringWidth = 30.0;
     ringProgressView.progress = 0.0;
     [self.view addSubview:ringProgressView];
+
+    progressLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+    progressLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    progressLabel.text = @"0 %";
+    progressLabel.font = [UIFont systemFontOfSize:30.0];
+    [progressLabel sizeToFit];
+    [ringProgressView addSubview:progressLabel];
+    [progressLabel.centerXAnchor constraintEqualToAnchor:ringProgressView.centerXAnchor].active = YES;
+    [progressLabel.centerYAnchor constraintEqualToAnchor:ringProgressView.centerYAnchor].active = YES;
 
     progress50Button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     progress50Button.frame = CGRectMake(30.0, 350.0, 0.0, 0.0);
@@ -58,14 +68,20 @@
 }
 
 - (void)_clickedProgress50Button:(UIButton *)sender {
+    progressLabel.text = @"50 %";
+    [progressLabel sizeToFit];
     [self _setRingProgress:0.50];
 }
 
 - (void)_clickedProgress87Button:(UIButton *)sender {
+    progressLabel.text = @"87 %";
+    [progressLabel sizeToFit];
     [self _setRingProgress:0.87];
 }
 
 - (void)_clickedProgress168Button:(UIButton *)sender {
+    progressLabel.text = @"168 %";
+    [progressLabel sizeToFit];
     [self _setRingProgress:1.68];
 }
 
