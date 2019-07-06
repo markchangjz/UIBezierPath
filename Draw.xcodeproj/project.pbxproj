@@ -11,9 +11,6 @@
 		0D35B77B1ED9BC670006D250 /* Mask1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35B77A1ED9BC670006D250 /* Mask1View.m */; };
 		0D35B77E1ED9C01F0006D250 /* Mask2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35B77D1ED9C01F0006D250 /* Mask2ViewController.m */; };
 		0D35B7811ED9C0CB0006D250 /* Mask2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35B7801ED9C0CB0006D250 /* Mask2View.m */; };
-		0DAE1E191EDAC51B00634BC7 /* MKRingProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE1E181EDAC51B00634BC7 /* MKRingProgressViewController.m */; };
-		0DAE1E1E1EDAC5CF00634BC7 /* MKGradientGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE1E1C1EDAC5CF00634BC7 /* MKGradientGenerator.swift */; };
-		0DAE1E1F1EDAC5CF00634BC7 /* MKRingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE1E1D1EDAC5CF00634BC7 /* MKRingProgressView.swift */; };
 		936D13A91EC9921000A0B663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13A81EC9921000A0B663 /* main.m */; };
 		936D13AC1EC9921000A0B663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D13AB1EC9921000A0B663 /* AppDelegate.m */; };
 		936D13B21EC9921000A0B663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936D13B01EC9921000A0B663 /* Main.storyboard */; };
@@ -35,11 +32,7 @@
 		0D35B77D1ED9C01F0006D250 /* Mask2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mask2ViewController.m; sourceTree = "<group>"; };
 		0D35B77F1ED9C0CB0006D250 /* Mask2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mask2View.h; sourceTree = "<group>"; };
 		0D35B7801ED9C0CB0006D250 /* Mask2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mask2View.m; sourceTree = "<group>"; };
-		0DAE1E171EDAC51B00634BC7 /* MKRingProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKRingProgressViewController.h; sourceTree = "<group>"; };
-		0DAE1E181EDAC51B00634BC7 /* MKRingProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKRingProgressViewController.m; sourceTree = "<group>"; };
 		0DAE1E1B1EDAC5CE00634BC7 /* Draw-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Draw-Bridging-Header.h"; sourceTree = "<group>"; };
-		0DAE1E1C1EDAC5CF00634BC7 /* MKGradientGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGradientGenerator.swift; sourceTree = "<group>"; };
-		0DAE1E1D1EDAC5CF00634BC7 /* MKRingProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKRingProgressView.swift; sourceTree = "<group>"; };
 		0DAE1E211EDAC66300634BC7 /* Draw-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Draw-Swift.h"; sourceTree = "<group>"; };
 		936D13A41EC9921000A0B663 /* Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936D13A81EC9921000A0B663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,23 +65,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DAE1E1A1EDAC5BA00634BC7 /* 3rd party */ = {
-			isa = PBXGroup;
-			children = (
-				0DAE1E201EDAC5E700634BC7 /* MKRingProgressView */,
-			);
-			name = "3rd party";
-			sourceTree = "<group>";
-		};
-		0DAE1E201EDAC5E700634BC7 /* MKRingProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				0DAE1E1C1EDAC5CF00634BC7 /* MKGradientGenerator.swift */,
-				0DAE1E1D1EDAC5CF00634BC7 /* MKRingProgressView.swift */,
-			);
-			name = MKRingProgressView;
-			sourceTree = "<group>";
-		};
 		936D139B1EC9921000A0B663 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +84,6 @@
 		936D13A61EC9921000A0B663 /* Draw */ = {
 			isa = PBXGroup;
 			children = (
-				0DAE1E1A1EDAC5BA00634BC7 /* 3rd party */,
 				936D13AA1EC9921000A0B663 /* AppDelegate.h */,
 				936D13AB1EC9921000A0B663 /* AppDelegate.m */,
 				936D13B01EC9921000A0B663 /* Main.storyboard */,
@@ -130,8 +105,6 @@
 				0D35B77D1ED9C01F0006D250 /* Mask2ViewController.m */,
 				0D35B77F1ED9C0CB0006D250 /* Mask2View.h */,
 				0D35B7801ED9C0CB0006D250 /* Mask2View.m */,
-				0DAE1E171EDAC51B00634BC7 /* MKRingProgressViewController.h */,
-				0DAE1E181EDAC51B00634BC7 /* MKRingProgressViewController.m */,
 				936D13B31EC9921000A0B663 /* Assets.xcassets */,
 				936D13B51EC9921000A0B663 /* LaunchScreen.storyboard */,
 				936D13B81EC9921000A0B663 /* Info.plist */,
@@ -192,6 +165,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -224,13 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				936D13AC1EC9921000A0B663 /* AppDelegate.m in Sources */,
-				0DAE1E1E1EDAC5CF00634BC7 /* MKGradientGenerator.swift in Sources */,
 				0D35B7811ED9C0CB0006D250 /* Mask2View.m in Sources */,
 				936D13A91EC9921000A0B663 /* main.m in Sources */,
 				936D13CC1EC9A33400A0B663 /* Draw3ViewController.m in Sources */,
 				0D35B77E1ED9C01F0006D250 /* Mask2ViewController.m in Sources */,
-				0DAE1E191EDAC51B00634BC7 /* MKRingProgressViewController.m in Sources */,
-				0DAE1E1F1EDAC5CF00634BC7 /* MKRingProgressView.swift in Sources */,
 				936D13C31EC9946500A0B663 /* Draw1ViewController.m in Sources */,
 				0D35B7781ED9BBB60006D250 /* Mask1ViewController.m in Sources */,
 				936D13C01EC992AD00A0B663 /* MainTableViewController.m in Sources */,
@@ -366,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Draw/Draw-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -381,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.markchang.Draw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Draw/Draw-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
