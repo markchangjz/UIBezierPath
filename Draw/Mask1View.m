@@ -1,5 +1,7 @@
 // https://stackoverflow.com/questions/16512761/calayer-with-transparent-hole-in-it
 
+// https://stackoverflow.com/questions/14411765/ios-invert-mask-in-drawrect
+
 #import "Mask1View.h"
 
 @implementation Mask1View
